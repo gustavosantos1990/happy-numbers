@@ -1,0 +1,1808 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="7" name="happyNumbersTest" time="1.211" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\GustavoSantos\Documents\NetBeansProjects\happynumbers"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\GUSTAV~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft\Web Platform Installer\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\GustavoSantos"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="GustavoSantos"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.2\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="happyNumbersTest" name="testa10" time="0.019"/>
+  <testcase classname="happyNumbersTest" name="testa1" time="0"/>
+  <testcase classname="happyNumbersTest" name="testa2" time="0.199">
+    <failure message="expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at happyNumbersTest.testa2(happyNumbersTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>Entrou no primeiro for...
+Numero no formato de STRING: 2
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [4]
+Entrou no primeiro for...
+Numero no formato de STRING: 4
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [4, 16]
+Entrou no primeiro for...
+Numero no formato de STRING: 16
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 37
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [4, 16, 37]
+Entrou no primeiro for...
+Numero no formato de STRING: 37
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 3
+Digito como INTEIRO: 3
+Quadrado de 3: 9
+resultadoParcial: 9
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 7
+Digito como INTEIRO: 7
+Quadrado de 7: 49
+resultadoParcial: 58
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [4, 16, 37, 58]
+Entrou no primeiro for...
+Numero no formato de STRING: 58
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 25
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 89
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [4, 16, 37, 58, 89]
+Entrou no primeiro for...
+Numero no formato de STRING: 89
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 9
+Digito como INTEIRO: 9
+Quadrado de 9: 81
+resultadoParcial: 145
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [4, 16, 37, 58, 89, 145]
+Entrou no primeiro for...
+Numero no formato de STRING: 145
+Quantidade de digitos da STRING: 3
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 17
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 2 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 42
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [4, 16, 37, 58, 89, 145, 42]
+Entrou no primeiro for...
+Numero no formato de STRING: 42
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 20
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [4, 16, 37, 58, 89, 145, 42, 20]
+Entrou no primeiro for...
+Numero no formato de STRING: 20
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 0
+Digito como INTEIRO: 0
+Quadrado de 0: 0
+resultadoParcial: 4
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+O numero 4 já havia aparecido...
+</system-out>
+  </testcase>
+  <testcase classname="happyNumbersTest" name="testa3" time="0.08">
+    <failure message="expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at happyNumbersTest.testa3(happyNumbersTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>Entrou no primeiro for...
+Numero no formato de STRING: 3
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 3
+Digito como INTEIRO: 3
+Quadrado de 3: 9
+resultadoParcial: 9
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [9]
+Entrou no primeiro for...
+Numero no formato de STRING: 9
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 9
+Digito como INTEIRO: 9
+Quadrado de 9: 81
+resultadoParcial: 81
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [9, 81]
+Entrou no primeiro for...
+Numero no formato de STRING: 81
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 65
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [9, 81, 65]
+Entrou no primeiro for...
+Numero no formato de STRING: 65
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 36
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 61
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [9, 81, 65, 61]
+Entrou no primeiro for...
+Numero no formato de STRING: 61
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 36
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 37
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [9, 81, 65, 61, 37]
+Entrou no primeiro for...
+Numero no formato de STRING: 37
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 3
+Digito como INTEIRO: 3
+Quadrado de 3: 9
+resultadoParcial: 9
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 7
+Digito como INTEIRO: 7
+Quadrado de 7: 49
+resultadoParcial: 58
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [9, 81, 65, 61, 37, 58]
+Entrou no primeiro for...
+Numero no formato de STRING: 58
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 25
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 89
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [9, 81, 65, 61, 37, 58, 89]
+Entrou no primeiro for...
+Numero no formato de STRING: 89
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 9
+Digito como INTEIRO: 9
+Quadrado de 9: 81
+resultadoParcial: 145
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [9, 81, 65, 61, 37, 58, 89, 145]
+Entrou no primeiro for...
+Numero no formato de STRING: 145
+Quantidade de digitos da STRING: 3
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 17
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 2 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 42
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [9, 81, 65, 61, 37, 58, 89, 145, 42]
+Entrou no primeiro for...
+Numero no formato de STRING: 42
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 20
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [9, 81, 65, 61, 37, 58, 89, 145, 42, 20]
+Entrou no primeiro for...
+Numero no formato de STRING: 20
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 0
+Digito como INTEIRO: 0
+Quadrado de 0: 0
+resultadoParcial: 4
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [9, 81, 65, 61, 37, 58, 89, 145, 42, 20, 4]
+Entrou no primeiro for...
+Numero no formato de STRING: 4
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [9, 81, 65, 61, 37, 58, 89, 145, 42, 20, 4, 16]
+Entrou no primeiro for...
+Numero no formato de STRING: 16
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 37
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+O numero 37 já havia aparecido...
+</system-out>
+  </testcase>
+  <testcase classname="happyNumbersTest" name="testa4" time="0.097">
+    <failure message="expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at happyNumbersTest.testa4(happyNumbersTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>Entrou no primeiro for...
+Numero no formato de STRING: 4
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [16]
+Entrou no primeiro for...
+Numero no formato de STRING: 16
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 37
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [16, 37]
+Entrou no primeiro for...
+Numero no formato de STRING: 37
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 3
+Digito como INTEIRO: 3
+Quadrado de 3: 9
+resultadoParcial: 9
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 7
+Digito como INTEIRO: 7
+Quadrado de 7: 49
+resultadoParcial: 58
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [16, 37, 58]
+Entrou no primeiro for...
+Numero no formato de STRING: 58
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 25
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 89
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [16, 37, 58, 89]
+Entrou no primeiro for...
+Numero no formato de STRING: 89
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 9
+Digito como INTEIRO: 9
+Quadrado de 9: 81
+resultadoParcial: 145
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [16, 37, 58, 89, 145]
+Entrou no primeiro for...
+Numero no formato de STRING: 145
+Quantidade de digitos da STRING: 3
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 17
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 2 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 42
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [16, 37, 58, 89, 145, 42]
+Entrou no primeiro for...
+Numero no formato de STRING: 42
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 20
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [16, 37, 58, 89, 145, 42, 20]
+Entrou no primeiro for...
+Numero no formato de STRING: 20
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 0
+Digito como INTEIRO: 0
+Quadrado de 0: 0
+resultadoParcial: 4
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [16, 37, 58, 89, 145, 42, 20, 4]
+Entrou no primeiro for...
+Numero no formato de STRING: 4
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+O numero 16 já havia aparecido...
+</system-out>
+  </testcase>
+  <testcase classname="happyNumbersTest" name="testa5" time="0.041">
+    <failure message="expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at happyNumbersTest.testa5(happyNumbersTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>Entrou no primeiro for...
+Numero no formato de STRING: 5
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 25
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [25]
+Entrou no primeiro for...
+Numero no formato de STRING: 25
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 29
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [25, 29]
+Entrou no primeiro for...
+Numero no formato de STRING: 29
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 9
+Digito como INTEIRO: 9
+Quadrado de 9: 81
+resultadoParcial: 85
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [25, 29, 85]
+Entrou no primeiro for...
+Numero no formato de STRING: 85
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 89
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [25, 29, 85, 89]
+Entrou no primeiro for...
+Numero no formato de STRING: 89
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 9
+Digito como INTEIRO: 9
+Quadrado de 9: 81
+resultadoParcial: 145
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [25, 29, 85, 89, 145]
+Entrou no primeiro for...
+Numero no formato de STRING: 145
+Quantidade de digitos da STRING: 3
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 17
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 2 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 42
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [25, 29, 85, 89, 145, 42]
+Entrou no primeiro for...
+Numero no formato de STRING: 42
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 20
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [25, 29, 85, 89, 145, 42, 20]
+Entrou no primeiro for...
+Numero no formato de STRING: 20
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 0
+Digito como INTEIRO: 0
+Quadrado de 0: 0
+resultadoParcial: 4
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [25, 29, 85, 89, 145, 42, 20, 4]
+Entrou no primeiro for...
+Numero no formato de STRING: 4
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [25, 29, 85, 89, 145, 42, 20, 4, 16]
+Entrou no primeiro for...
+Numero no formato de STRING: 16
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 37
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [25, 29, 85, 89, 145, 42, 20, 4, 16, 37]
+Entrou no primeiro for...
+Numero no formato de STRING: 37
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 3
+Digito como INTEIRO: 3
+Quadrado de 3: 9
+resultadoParcial: 9
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 7
+Digito como INTEIRO: 7
+Quadrado de 7: 49
+resultadoParcial: 58
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [25, 29, 85, 89, 145, 42, 20, 4, 16, 37, 58]
+Entrou no primeiro for...
+Numero no formato de STRING: 58
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 25
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 89
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+O numero 89 já havia aparecido...
+</system-out>
+  </testcase>
+  <testcase classname="happyNumbersTest" name="testa6" time="0.202">
+    <failure message="expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at happyNumbersTest.testa6(happyNumbersTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>Entrou no primeiro for...
+Numero no formato de STRING: 6
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 36
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36]
+Entrou no primeiro for...
+Numero no formato de STRING: 36
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 3
+Digito como INTEIRO: 3
+Quadrado de 3: 9
+resultadoParcial: 9
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 45
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45]
+Entrou no primeiro for...
+Numero no formato de STRING: 45
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 41
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41]
+Entrou no primeiro for...
+Numero no formato de STRING: 41
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 17
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17]
+Entrou no primeiro for...
+Numero no formato de STRING: 17
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 7
+Digito como INTEIRO: 7
+Quadrado de 7: 49
+resultadoParcial: 50
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17, 50]
+Entrou no primeiro for...
+Numero no formato de STRING: 50
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 25
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 0
+Digito como INTEIRO: 0
+Quadrado de 0: 0
+resultadoParcial: 25
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17, 50, 25]
+Entrou no primeiro for...
+Numero no formato de STRING: 25
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 29
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17, 50, 25, 29]
+Entrou no primeiro for...
+Numero no formato de STRING: 29
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 9
+Digito como INTEIRO: 9
+Quadrado de 9: 81
+resultadoParcial: 85
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17, 50, 25, 29, 85]
+Entrou no primeiro for...
+Numero no formato de STRING: 85
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 89
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17, 50, 25, 29, 85, 89]
+Entrou no primeiro for...
+Numero no formato de STRING: 89
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 9
+Digito como INTEIRO: 9
+Quadrado de 9: 81
+resultadoParcial: 145
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17, 50, 25, 29, 85, 89, 145]
+Entrou no primeiro for...
+Numero no formato de STRING: 145
+Quantidade de digitos da STRING: 3
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 17
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 2 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 42
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17, 50, 25, 29, 85, 89, 145, 42]
+Entrou no primeiro for...
+Numero no formato de STRING: 42
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 20
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17, 50, 25, 29, 85, 89, 145, 42, 20]
+Entrou no primeiro for...
+Numero no formato de STRING: 20
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 0
+Digito como INTEIRO: 0
+Quadrado de 0: 0
+resultadoParcial: 4
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17, 50, 25, 29, 85, 89, 145, 42, 20, 4]
+Entrou no primeiro for...
+Numero no formato de STRING: 4
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17, 50, 25, 29, 85, 89, 145, 42, 20, 4, 16]
+Entrou no primeiro for...
+Numero no formato de STRING: 16
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 37
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17, 50, 25, 29, 85, 89, 145, 42, 20, 4, 16, 37]
+Entrou no primeiro for...
+Numero no formato de STRING: 37
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 3
+Digito como INTEIRO: 3
+Quadrado de 3: 9
+resultadoParcial: 9
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 7
+Digito como INTEIRO: 7
+Quadrado de 7: 49
+resultadoParcial: 58
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [36, 45, 41, 17, 50, 25, 29, 85, 89, 145, 42, 20, 4, 16, 37, 58]
+Entrou no primeiro for...
+Numero no formato de STRING: 58
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 25
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 89
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+O numero 89 já havia aparecido...
+</system-out>
+  </testcase>
+  <testcase classname="happyNumbersTest" name="testa7" time="0.001"/>
+  <testcase classname="happyNumbersTest" name="testa8" time="0.135">
+    <failure message="expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at happyNumbersTest.testa8(happyNumbersTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>Entrou no primeiro for...
+Numero no formato de STRING: 8
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [64]
+Entrou no primeiro for...
+Numero no formato de STRING: 64
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 36
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 52
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [64, 52]
+Entrou no primeiro for...
+Numero no formato de STRING: 52
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 25
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 29
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [64, 52, 29]
+Entrou no primeiro for...
+Numero no formato de STRING: 29
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 9
+Digito como INTEIRO: 9
+Quadrado de 9: 81
+resultadoParcial: 85
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [64, 52, 29, 85]
+Entrou no primeiro for...
+Numero no formato de STRING: 85
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 89
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [64, 52, 29, 85, 89]
+Entrou no primeiro for...
+Numero no formato de STRING: 89
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 9
+Digito como INTEIRO: 9
+Quadrado de 9: 81
+resultadoParcial: 145
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [64, 52, 29, 85, 89, 145]
+Entrou no primeiro for...
+Numero no formato de STRING: 145
+Quantidade de digitos da STRING: 3
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 17
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 2 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 42
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [64, 52, 29, 85, 89, 145, 42]
+Entrou no primeiro for...
+Numero no formato de STRING: 42
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 20
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [64, 52, 29, 85, 89, 145, 42, 20]
+Entrou no primeiro for...
+Numero no formato de STRING: 20
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 0
+Digito como INTEIRO: 0
+Quadrado de 0: 0
+resultadoParcial: 4
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [64, 52, 29, 85, 89, 145, 42, 20, 4]
+Entrou no primeiro for...
+Numero no formato de STRING: 4
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [64, 52, 29, 85, 89, 145, 42, 20, 4, 16]
+Entrou no primeiro for...
+Numero no formato de STRING: 16
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 37
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [64, 52, 29, 85, 89, 145, 42, 20, 4, 16, 37]
+Entrou no primeiro for...
+Numero no formato de STRING: 37
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 3
+Digito como INTEIRO: 3
+Quadrado de 3: 9
+resultadoParcial: 9
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 7
+Digito como INTEIRO: 7
+Quadrado de 7: 49
+resultadoParcial: 58
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [64, 52, 29, 85, 89, 145, 42, 20, 4, 16, 37, 58]
+Entrou no primeiro for...
+Numero no formato de STRING: 58
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 25
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 89
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+O numero 89 já havia aparecido...
+</system-out>
+  </testcase>
+  <testcase classname="happyNumbersTest" name="testa9" time="0.002">
+    <failure message="expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[feliz]&gt; but was:&lt;[triste]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at happyNumbersTest.testa9(happyNumbersTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>Entrou no primeiro for...
+Numero no formato de STRING: 9
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 9
+Digito como INTEIRO: 9
+Quadrado de 9: 81
+resultadoParcial: 81
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [81]
+Entrou no primeiro for...
+Numero no formato de STRING: 81
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 65
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [81, 65]
+Entrou no primeiro for...
+Numero no formato de STRING: 65
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 36
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 61
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [81, 65, 61]
+Entrou no primeiro for...
+Numero no formato de STRING: 61
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 36
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 37
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [81, 65, 61, 37]
+Entrou no primeiro for...
+Numero no formato de STRING: 37
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 3
+Digito como INTEIRO: 3
+Quadrado de 3: 9
+resultadoParcial: 9
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 7
+Digito como INTEIRO: 7
+Quadrado de 7: 49
+resultadoParcial: 58
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [81, 65, 61, 37, 58]
+Entrou no primeiro for...
+Numero no formato de STRING: 58
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 25
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 89
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [81, 65, 61, 37, 58, 89]
+Entrou no primeiro for...
+Numero no formato de STRING: 89
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 8
+Digito como INTEIRO: 8
+Quadrado de 8: 64
+resultadoParcial: 64
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 9
+Digito como INTEIRO: 9
+Quadrado de 9: 81
+resultadoParcial: 145
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [81, 65, 61, 37, 58, 89, 145]
+Entrou no primeiro for...
+Numero no formato de STRING: 145
+Quantidade de digitos da STRING: 3
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 17
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 2 da STRING: 5
+Digito como INTEIRO: 5
+Quadrado de 5: 25
+resultadoParcial: 42
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [81, 65, 61, 37, 58, 89, 145, 42]
+Entrou no primeiro for...
+Numero no formato de STRING: 42
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 20
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [81, 65, 61, 37, 58, 89, 145, 42, 20]
+Entrou no primeiro for...
+Numero no formato de STRING: 20
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 2
+Digito como INTEIRO: 2
+Quadrado de 2: 4
+resultadoParcial: 4
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 0
+Digito como INTEIRO: 0
+Quadrado de 0: 0
+resultadoParcial: 4
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [81, 65, 61, 37, 58, 89, 145, 42, 20, 4]
+Entrou no primeiro for...
+Numero no formato de STRING: 4
+Quantidade de digitos da STRING: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 4
+Digito como INTEIRO: 4
+Quadrado de 4: 16
+resultadoParcial: 16
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+Lista de resultados: [81, 65, 61, 37, 58, 89, 145, 42, 20, 4, 16]
+Entrou no primeiro for...
+Numero no formato de STRING: 16
+Quantidade de digitos da STRING: 2
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 0 da STRING: 1
+Digito como INTEIRO: 1
+Quadrado de 1: 1
+resultadoParcial: 1
+- - - - -
+Entrou no segundo for...
+Separando o digito de numero 1 da STRING: 6
+Digito como INTEIRO: 6
+Quadrado de 6: 36
+resultadoParcial: 37
+- - - - -
+Entrou no else de &apos;(ultimoResultado == 1)&apos;...
+O numero 37 já havia aparecido...
+</system-out>
+  </testcase>
+</testsuite>
